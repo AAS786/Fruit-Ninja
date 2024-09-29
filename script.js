@@ -66,7 +66,7 @@ $(function(){
     function addhearts() {
         $('#trialsleft').empty();
         for(i = 0 ; i < trialsleft ; i++){
-            $('#trialsleft').append('<img src="https://github.com/AAS786/Fruit-Ninja/blob/main/images/wrong.png" class="life">');
+            $('#trialsleft').append('<img src="images/wrong.png" class="life">');
         }
     }
 
@@ -160,7 +160,7 @@ $("#fruit1").mouseover(function () {
 
     // Choose a random fruit
     function chooseRandomFruit() {
-        $('#fruit1').attr('src', 'https://github.com/AAS786/Fruit-Ninja/tree/main/images/' + fruits[Math.round(9 * Math.random())] + '.png');
+        $('#fruit1').attr('src', 'images/' + fruits[Math.round(9 * Math.random())] + '.png');
     }
 
     // Stop the fruit/bomb action
