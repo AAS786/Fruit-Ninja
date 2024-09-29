@@ -111,7 +111,7 @@ $(function(){
                     stopAction();
                 }
             }
-        }, 10);
+        }, 13);
 
         // Random chance to spawn a bomb
         if (Math.random() < bombProbability) {
@@ -160,7 +160,7 @@ $("#fruit1").mouseover(function () {
 
     // Choose a random fruit
     function chooseRandomFruit() {
-        $('#fruit1').attr('src', 'images/' + fruits[Math.round(9 * Math.random())] + '.png');
+        $('#fruit1').attr('src', 'images/' + fruits[Math.round(12 * Math.random())] + '.png');
     }
 
     // Stop the fruit/bomb action
