@@ -4,7 +4,7 @@ var trialsleft;
 var step;
 var action;
 var bombAction;
-var fruits = ['1','2','3','4','5','6','7','8','9','10','11','12','13'];
+var fruits = ['1','2','3','4','5','6','7','8','9','10'];
 var bombProbability = 0.2; // 20% chance to spawn a bomb
 
 $(function(){
@@ -111,7 +111,7 @@ $(function(){
                     stopAction();
                 }
             }
-        }, 13);
+        }, 10);
 
         // Random chance to spawn a bomb
         if (Math.random() < bombProbability) {
@@ -160,7 +160,7 @@ $("#fruit1").mouseover(function () {
 
     // Choose a random fruit
     function chooseRandomFruit() {
-        $('#fruit1').attr('src', 'images/' + fruits[Math.round(12 * Math.random())] + '.png');
+        $('#fruit1').attr('src', 'images/' + fruits[Math.round(9 * Math.random())] + '.png');
     }
 
     // Stop the fruit/bomb action
