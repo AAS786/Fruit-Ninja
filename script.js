@@ -66,7 +66,7 @@ $(function(){
     function addhearts() {
         $('#trialsleft').empty();
         for(i = 0 ; i < trialsleft ; i++){
-            $('#trialsleft').append('<img src="https://github.com/AAS786/Fruit-Ninja/blob/main/images/wrong.png" class="life">');
+            $('#trialsleft').append('<img src="https://i.postimg.cc/5NR423yS/wrong.png" class="life">');
         }
     }
 
