@@ -1,7 +1,7 @@
 html{
     height: 100%;
     background: radial-gradient(circle,#fff,rgb(189, 182, 182));
-    background-image: url(https://github.com/AAS786/Fruit-Ninja/blob/main/images/bg3%20-%20Copy.jpg);
+    background-image: url(https://i.postimg.cc/3R175jzp/bg3-Copy.jpg);
     background-size: cover;
     font-family: cursive, sans-serif;
   }
@@ -41,7 +41,7 @@ html{
       box-shadow: 0px 4px 0px 0px #775012;
   }
   #fruitcontainer{
-      background: url(https://github.com/AAS786/Fruit-Ninja/blob/main/images/wood-bg2.jpg) ;
+      background: url(https://i.postimg.cc/6Qdtzx0M/wood-bg2.jpg) ;
       background-size: cover;
       width: 650px;
       height: 470px;
