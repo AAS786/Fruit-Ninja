@@ -32,7 +32,7 @@ $(function(){
     });
 
     // Slice a fruit
-    $("#fruit1").on("mouseover touchstart", function() {
+    $("#fruit1").mouseover(function () {
         score++;
         $("#scoreValue").html(score);
 
@@ -45,7 +45,7 @@ $(function(){
     });
 
     // Slice a bomb
-    $("#bomb").on("mouseover touchstart", function() {
+    $("#bomb").mouseover(function () {
         // Game over when bomb is sliced
         clearInterval(bombAction);
         clearInterval(action);
